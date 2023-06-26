@@ -1,0 +1,100 @@
+#title,.subtitle{
+    color: white;
+    position: fixed;
+}
+.back{
+    background-color: black;
+}
+.back2{
+    background-color: white;
+}
+.title{
+    color: white;
+    font-size: 90px;
+    text-align: center;
+    font-family: Rebel;
+}
+.title_QS{
+    color: white;
+    font-size: medium;
+    text-align: left;
+    font-family: Rebel;
+}
+.titleB{
+    color: black;
+    font-family: Rebel;
+}
+.title_M2{
+    color: white;
+    font-family: Rebel;
+    font-size: 40px;
+    text-align: center;
+}
+.title_M3{
+    color: black;
+    font-family: Rebel;
+    font-size: 40px;
+    text-align: center;
+}
+.title_M{
+    color: red;
+    font-family: Rebel;
+    font-size: 50px;
+    text-align: center;
+}
+.Logo{
+    height: 500px;
+    width: 500px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.logo2{
+    height: 300px;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+}
+.inst{
+    height: 100px;
+    width: 100px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    text-align: center;
+  }
+  .element {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+  } 
+.vest{
+    display: block;
+    margin-left: auto;
+}
+.carousel {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .slides {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .carousel img {
+    width: 100%;
+    height: auto;
+  }
+@font-face {
+    font-family: "Rebel";
+    src: url("Rebel.ttf");
+}
